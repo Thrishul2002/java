@@ -1,0 +1,33 @@
+package tollgate_assignment;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :10 Nov 2024
+* Time   :7:12:08 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+interface Truck{
+	abstract void truck();
+}
+public class Vechile implements Truck{
+	private int Axels;
+	private float Weight;
+	private String Name;
+	
+	
+
+
+	public Vechile(int axels, float weight, String name) {
+		this.Axels = axels;
+		this.Weight = weight;
+		this.Name = name;
+	}
+
+
+	@Override
+	public void truck() {
+		
+	return Axels,Name,Weight;	
+	}
+
+}

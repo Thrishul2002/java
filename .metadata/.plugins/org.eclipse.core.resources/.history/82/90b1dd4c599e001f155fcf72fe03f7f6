@@ -1,0 +1,17 @@
+package java8features;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :9 Nov 2024
+* Time   :10:40:13 am
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class MethodReferenceDemo4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

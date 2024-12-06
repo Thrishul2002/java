@@ -1,0 +1,24 @@
+
+package tollgate_assignment;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :10 Nov 2024
+* Time   :8:08:10 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class TestTollBooth extends TollBooth {
+
+	public TestTollBooth(int axels, float weight, String truckName) {
+		super(axels, weight, truckName);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		TollBooth tb=new TestTollBooth(5, 12000, "tata");
+		tb.truck();
+		tb.toll();
+	}
+
+}

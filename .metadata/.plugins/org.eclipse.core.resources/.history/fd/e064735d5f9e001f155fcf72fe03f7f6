@@ -1,0 +1,28 @@
+package java8features;
+
+import java.time.LocalDate;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :9 Nov 2024
+* Time   :11:20:58 am
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+interface Parser{
+	
+	default void parse() {
+		System.out.println("Default paesing method");
+	}
+	static void displayDate() {
+		System.out.println(LocalDate.now());
+	}
+}
+
+public class DefaultMethodDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package tollgate_assignment;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :10 Nov 2024
+* Time   :7:37:52 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class Vechile implements Truck{
+	private int axels;
+	private int weight;
+	private String truckName;
+	
+	public Vechile(int axels, int weight, String truckName) {
+		this.axels = axels;
+		this.weight = weight;
+		this.truckName = truckName;
+	}
+
+	public int getAxels() {
+		return axels;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public String getTruckName() {
+		return truckName;
+	}
+
+	@Override
+	public void truck() {
+		
+		System.out.println(getAxels()+getWeight()+getTruckName());
+		
+	}
+
+	
+
+	
+		
+}

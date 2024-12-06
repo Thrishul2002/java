@@ -1,0 +1,17 @@
+package exceptionhandling;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :6 Nov 2024
+* Time   :4:40:09 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class CustomExceptionDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

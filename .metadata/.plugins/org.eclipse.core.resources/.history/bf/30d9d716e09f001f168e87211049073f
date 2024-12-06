@@ -1,0 +1,34 @@
+package tollgate_assignment;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :10 Nov 2024
+* Time   :7:47:25 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class TollBooth  extends Vechile implements Toll {
+
+	public TollBooth(int axels, int weight, String truckName) {
+		super(axels, weight, truckName);
+		// TODO Auto-generated constructor stub
+	}
+	int cnt=0,collections=0;
+	int sum;
+	@Override
+	public void toll(Truck t) {
+		
+		sum=(int) (5*t.getAxels()+(t.getWeight()/500));
+		cnt++;
+		collections+=sum;
+		System.out.println("Arrival of "+t.getName());
+		System.out.println("Axels-"+t.getAxels()+" weight of vechile-"+t.getWeight()+" toll to pay-"+sum);
+		
+	}
+	public void displayCollections() {
+		System.out.println("******* Total Collections ********");
+		System.out.println("total vechiles-"+cnt+" total amount collected-"+collections);
+	}
+	
+
+}

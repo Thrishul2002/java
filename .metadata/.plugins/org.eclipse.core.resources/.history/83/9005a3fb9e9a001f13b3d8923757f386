@@ -1,0 +1,17 @@
+package packagedemo;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :4 Nov 2024
+* Time   :4:47:13 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class Person {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

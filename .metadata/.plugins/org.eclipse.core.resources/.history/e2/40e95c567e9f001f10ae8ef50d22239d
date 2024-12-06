@@ -1,0 +1,26 @@
+package tollgate_assignment;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :10 Nov 2024
+* Time   :7:47:25 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class TollBooth  implements Toll{
+
+	
+	int sum;
+	@Override
+	public void toll(Truck t) {
+		int cnt=0,collections=0;
+		sum=(int) (5*t.getAxels()+(t.getWeight()/500));
+		cnt++;
+		collections+=sum;
+		System.out.println("Arrival of "+t.getName());
+		System.out.println("Axels-"+t.getAxels()+" weight of vechile-"+t.getWeight()+" toll to pay-"+sum);
+		
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+package exceptionhandling;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :6 Nov 2024
+* Time   :4:23:58 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class ThrowsDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

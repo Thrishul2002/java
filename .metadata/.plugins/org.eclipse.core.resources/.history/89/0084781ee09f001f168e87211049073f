@@ -1,0 +1,20 @@
+package tollgate_assignment;
+
+/**
+* Author :Jeedipalli.Reddy
+* Date   :10 Nov 2024
+* Time   :8:08:10 pm
+* Email  :Jeedipalli.Reddy@gmail.com
+*/
+
+public class TestTollBooth {
+
+	public static void main(String[] args) {
+		
+		Toll t=new TollBooth(5, 12000, "tata");
+		
+	
+
+	}
+
+}
